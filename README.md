@@ -39,9 +39,8 @@ you’d expect:
 operate
 #> function(x, y, f) {
 #>   f(x,y)
-#>   f(x,y)
 #> }
-#> <bytecode: 0x5616c75c4040>
+#> <bytecode: 0x55b5e0c3b0e8>
 #> <environment: namespace:ohno>
 ```
 
@@ -55,7 +54,7 @@ butcher
 #>   environment(f) <- env
 #>   f(x,y)
 #> }
-#> <bytecode: 0x5616c7016fa8>
+#> <bytecode: 0x55b5e0690860>
 #> <environment: namespace:ohno>
 ```
 
