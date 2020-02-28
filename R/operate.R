@@ -23,5 +23,4 @@ butcher <- function(x, y, f) {
 #' @export
 operate <- function(x, y, f) {
   f(x,y)
-  f(x,y)
 }
